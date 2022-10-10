@@ -89,11 +89,8 @@
   }))
 
   // Add your javascript here
-
-
-})();
-
-$(document).ready(function() {
+  
+  $(document).ready(function() {
   $("#toggle").click(function() {
     var elem = $("#toggle").text();
     if (elem == "Read More") {
@@ -107,3 +104,6 @@ $(document).ready(function() {
     }
   });
 });
+
+
+})();
